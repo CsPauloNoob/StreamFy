@@ -1,0 +1,17 @@
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Application.deps.json
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Application.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Application.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Core.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Infra.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Core.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/bin/Debug/net9.0/StreamFy.Infra.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.csproj.AssemblyReference.cache
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.AssemblyInfoInputs.cache
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.AssemblyInfo.cs
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.csproj.CoreCompileInputs.cache
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.3700689F.Up2Date
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/refint/StreamFy.Application.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/ref/StreamFy.Application.dll

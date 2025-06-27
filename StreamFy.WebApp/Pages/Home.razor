@@ -1,0 +1,62 @@
+﻿@page "/"
+@using StreamFy.WebApp.Models
+@inject NavigationManager _navgationManager
+
+<MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
+    <MudText Typo="Typo.h5" Class="mb-4">Suas Musicas</MudText>
+    
+    <div style="display: flex; 
+    overflow-x: auto; 
+    gap: 16px; 
+    padding-bottom: 16px;">
+    
+        @foreach (var item in _musicas)
+        {
+            <MudCard Style="min-width: 200px; max-width: 200px;">
+                <MudCardMedia Image="@item.ImagemUrl" Height="140"/>
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.Nome</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudIconButton Icon="@GetFavoritoIcon(item)" 
+                                   Color="Color.Error" 
+                                   OnClick="@(() => Favoritar(item))"/>
+                </MudCardActions>
+            </MudCard>
+        }
+        
+    </div>
+    
+</MudContainer>
+
+@code
+{
+    private List<MusicaViewM> _musicas = new()
+    {
+        new MusicaViewM { Nome = "Musica 1", ImagemUrl = "images/image1.jpg" },
+        new MusicaViewM { Nome = "Musica 2", ImagemUrl = "images/image1.jpg" },
+        new MusicaViewM { Nome = "Musica 3", ImagemUrl = "images/image1.jpg" },
+        new MusicaViewM { Nome = "Musica 4", ImagemUrl = "images/image1.jpg" },
+        new MusicaViewM { Nome = "Musica 5", ImagemUrl = "images/image1.jpg" },
+        new MusicaViewM { Nome = "Musica 6", ImagemUrl = "images/image1.jpg" }
+    };
+
+    protected override void OnInitialized()
+    {
+        if(!ContaConfig.ContaLogada)
+            _navgationManager.NavigateTo("/login");
+    }
+
+    void Favoritar(MusicaViewM musica)
+    {
+        musica.Favorito = !musica.Favorito;
+    }
+
+    string GetFavoritoIcon(MusicaViewM musica)
+    {
+        return musica.Favorito ? 
+            Icons.Material.Filled.Favorite : 
+            Icons.Material.Filled.FavoriteBorder;
+    }
+
+}

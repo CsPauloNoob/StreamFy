@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "StreamFy.Application/1.0.0": {
+        "dependencies": {
+          "StreamFy.Core": "1.0.0",
+          "StreamFy.Infra": "1.0.0"
+        },
+        "runtime": {
+          "StreamFy.Application.dll": {}
+        }
+      },
+      "StreamFy.Core/1.0.0": {
+        "runtime": {
+          "StreamFy.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StreamFy.Infra/1.0.0": {
+        "runtime": {
+          "StreamFy.Infra.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StreamFy.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StreamFy.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StreamFy.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj": {}
+  },
+  "projects": {
+    "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj",
+        "projectName": "StreamFy.Application",
+        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/home/paulo/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj": {
+                "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj"
+              },
+              "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj": {
+                "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
+        "projectName": "StreamFy.Core",
+        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/home/paulo/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj",
+        "projectName": "StreamFy.Infra",
+        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/home/paulo/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

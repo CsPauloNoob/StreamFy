@@ -1,0 +1,35 @@
+@page "/login"
+@inject NavigationManager _navManager
+
+
+<h3>Login</h3>
+
+<MudPaper Class="d-flex flex-column align-center justify-center" Style="height: 100vh">
+    <MudCard Style="width: 100%; max-width: 400px;">
+        
+        <MudCardContent>
+            <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
+            
+            <MudTextField @bind-Value="_email" Label="Email" FullWidth="true"/>
+            <MudTextField @bind-Value="_password" Label="Senha" InputType="InputType.Password" FullWidth="true"/>
+            
+            <MudButton Color="Color.Primary" FullWidth="true" Class="mt-8" OnClick="TentativaLogin">
+                Entrar
+            </MudButton>
+        </MudCardContent>
+        
+    </MudCard>
+</MudPaper>
+
+@code {
+    private string _email;
+    private string _password;
+
+    private void TentativaLogin()
+    {
+        if (!string.IsNullOrEmpty(_email))
+        {
+            _navManager.NavigateTo("/");
+        }
+    }
+}

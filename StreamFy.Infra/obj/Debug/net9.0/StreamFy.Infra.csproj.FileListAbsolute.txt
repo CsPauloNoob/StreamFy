@@ -1,0 +1,11 @@
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/bin/Debug/net9.0/StreamFy.Infra.deps.json
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/bin/Debug/net9.0/StreamFy.Infra.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/bin/Debug/net9.0/StreamFy.Infra.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.AssemblyInfoInputs.cache
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.AssemblyInfo.cs
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.csproj.CoreCompileInputs.cache
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/refint/StreamFy.Infra.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/StreamFy.Infra.pdb
+/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/Debug/net9.0/ref/StreamFy.Infra.dll
