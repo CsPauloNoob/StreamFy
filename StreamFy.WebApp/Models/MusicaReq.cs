@@ -1,6 +1,6 @@
 namespace StreamFy.WebApp.Models;
 
-public class MusicaViewM
+public class MusicaReq
 {
     public string Nome { get; set; }
     public string ImagemUrl { get; set; }

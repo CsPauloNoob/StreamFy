@@ -6,11 +6,10 @@ using StreamFy.Core.Modelos;
 namespace StreamFy.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("conta")]
 public class ContaController : ControllerBase
 {
     private readonly UsuarioApplication _usuarioApp;
-
 
     public ContaController(UsuarioApplication usuarioApplication)
     {
@@ -18,10 +17,15 @@ public class ContaController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<Usuario> Login(UsuarioReq usuarioReq)
+    public ActionResult<string> FavoritarMusica(MusicaActionReq musicaActionReq)
     {
-        var usuario = _usuarioApp.Login(usuarioReq.email, usuarioReq.senha);
-        
-        return Ok(usuario);
+        return Ok();
     }
+
+    [HttpPut]
+    public ActionResult<List<string>> UpdatePlano()
+    {
+        return Ok();
+    }
+    
 }

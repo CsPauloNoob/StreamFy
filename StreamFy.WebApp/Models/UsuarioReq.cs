@@ -1,4 +1,6 @@
-namespace StreamFy.Api.RequestModels;
+using System.ComponentModel.DataAnnotations;
+
+namespace StreamFy.WebApp.Models;
 
 public class UsuarioReq
 {

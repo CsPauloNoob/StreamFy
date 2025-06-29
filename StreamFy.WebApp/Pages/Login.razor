@@ -10,12 +10,20 @@
         <MudCardContent>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
             
-            <MudTextField @bind-Value="_email" Label="Email" FullWidth="true"/>
+            <MudTextField @bind-Value="_email" InputType="InputType.Email" Label="Email" FullWidth="true"/>
             <MudTextField @bind-Value="_password" Label="Senha" InputType="InputType.Password" FullWidth="true"/>
             
-            <MudButton Color="Color.Primary" FullWidth="true" Class="mt-8" OnClick="TentativaLogin">
-                Entrar
-            </MudButton>
+            <MudPaper Class="d-flex">
+                <MudButton Color="Color.Primary" FullWidth="true" Class="mt-8 mr-2" OnClick="TentativaLogin">
+                    Entrar
+                </MudButton>
+                
+                <MudButton Color="Color.Primary" FullWidth="true" Class="mt-8 ml-2" OnClick="TentativaLogin">
+                    Registrar
+                </MudButton>
+            </MudPaper>
+            
+
         </MudCardContent>
         
     </MudCard>

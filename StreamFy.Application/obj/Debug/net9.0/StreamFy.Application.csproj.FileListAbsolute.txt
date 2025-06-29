@@ -15,3 +15,4 @@
 /home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/refint/StreamFy.Application.dll
 /home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.pdb
 /home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/ref/StreamFy.Application.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/Debug/net9.0/StreamFy.Application.sourcelink.json

@@ -9,3 +9,4 @@
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/refint/StreamFy.Core.dll
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/StreamFy.Core.pdb
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/ref/StreamFy.Core.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/StreamFy.Core.sourcelink.json

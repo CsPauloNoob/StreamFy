@@ -7,4 +7,17 @@ public class Playlist
     public string Descricao { get; set; }
     
     public List<Musica> Musicas { get; set; }
+
+
+    public bool AdicionarMusica(Musica musica)
+    {
+        if(Musicas.Any(x => x.Id == musica.Id))
+            return false;
+
+        else
+        {
+            Musicas.Add(musica);
+            return true;
+        }
+    }
 }

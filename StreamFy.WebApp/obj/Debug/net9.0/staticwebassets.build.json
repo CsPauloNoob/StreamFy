@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VjqxHobQEsgNwxEAurS8wuR/zHpWFlWrB89CwR5CAWY=",
+  "Hash": "XiPZ5gU1NT0DeF61Skesy+Et5jiNS0uhcnrZYIHpJhU=",
   "Source": "StreamFy.WebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "vz9cffbku6",
-      "Integrity": "ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co=",
+      "Fingerprint": "6r2j1eyxg4",
+      "Integrity": "TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -976,8 +976,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "3ub8lq4lcq",
-      "Integrity": "60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=",
+      "Fingerprint": "w55vm3rvlm",
+      "Integrity": "5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/StreamFy.WebApp.pdb"
@@ -997,8 +997,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "stkv0ieuyv",
-      "Integrity": "0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=",
+      "Fingerprint": "kdgzailsjj",
+      "Integrity": "qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/webcil/StreamFy.WebApp.wasm"
@@ -5540,12 +5540,12 @@
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Primitives.wasm"
     },
     {
-      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-stkv0ieuyv.gz",
+      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-kdgzailsjj.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=stkv0ieuyv}]!.wasm.gz",
+      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=kdgzailsjj}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5554,8 +5554,8 @@
       "RelatedAsset": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "a8xjihx36m",
-      "Integrity": "+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=",
+      "Fingerprint": "bab2so3ygy",
+      "Integrity": "o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.wasm"
@@ -6338,7 +6338,7 @@
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-vz9cffbku6.gz",
+      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-6r2j1eyxg4.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/",
@@ -6352,8 +6352,8 @@
       "RelatedAsset": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0l4x0df7cf",
-      "Integrity": "jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo=",
+      "Fingerprint": "tsh2vmdmv9",
+      "Integrity": "na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -6674,12 +6674,12 @@
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/System.Net.HttpListener.wasm"
     },
     {
-      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-3ub8lq4lcq.gz",
+      "Identity": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-w55vm3rvlm.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=3ub8lq4lcq}]!.pdb.gz",
+      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=w55vm3rvlm}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6688,8 +6688,8 @@
       "RelatedAsset": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6kn301g5xp",
-      "Integrity": "+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=",
+      "Fingerprint": "o4vf0u5fup",
+      "Integrity": "WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb"
@@ -9410,11 +9410,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co=\""
+          "Value": "\"TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9424,13 +9424,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co="
+          "Value": "sha256-TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-vz9cffbku6.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-6r2j1eyxg4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -9449,11 +9449,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo=\""
+          "Value": "\"na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 15:48:12 GMT"
+          "Value": "Fri, 27 Jun 2025 20:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9473,19 +9473,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co=\""
+          "Value": "W/\"TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co="
+          "Value": "sha256-TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-vz9cffbku6.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/e6c7jp3f5v-6r2j1eyxg4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9502,11 +9502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo=\""
+          "Value": "\"na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 15:48:12 GMT"
+          "Value": "Fri, 27 Jun 2025 20:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9524,7 +9524,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo="
+          "Value": "sha256-na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk="
         }
       ]
     },
@@ -21884,305 +21884,7 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24296"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-3ub8lq4lcq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000056401579"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-3ub8lq4lcq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24296"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-3ub8lq4lcq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000056401579"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb.gz",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-3ub8lq4lcq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
       "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22192,7 +21894,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21781"
+          "Value": "23317"
         },
         {
           "Name": "Content-Type",
@@ -22200,11 +21902,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22214,7 +21916,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "label",
@@ -22222,18 +21924,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         }
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-stkv0ieuyv.gz",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-kdgzailsjj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000105988341"
+          "Quality": "0.000100684656"
         }
       ],
       "ResponseHeaders": [
@@ -22243,15 +21945,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22271,13 +21973,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "W/\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "label",
@@ -22285,13 +21987,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         }
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-stkv0ieuyv.gz",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-kdgzailsjj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22300,7 +22002,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "Content-Type",
@@ -22308,11 +22010,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22330,7 +22032,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "label",
@@ -22338,7 +22040,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ="
+          "Value": "sha256-o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-w55vm3rvlm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000054704595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-w55vm3rvlm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/StreamFy.WebApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-w55vm3rvlm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000054704595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/hjkh66ml20-w55vm3rvlm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs="
         }
       ]
     },
@@ -22353,7 +22353,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21781"
+          "Value": "23317"
         },
         {
           "Name": "Content-Type",
@@ -22361,11 +22361,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22375,18 +22375,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         }
       ]
     },
     {
       "Route": "_framework/StreamFy.WebApp.wasm",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-stkv0ieuyv.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-kdgzailsjj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000105988341"
+          "Quality": "0.000100684656"
         }
       ],
       "ResponseHeaders": [
@@ -22396,15 +22396,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22424,19 +22424,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "W/\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         }
       ]
     },
     {
       "Route": "_framework/StreamFy.WebApp.wasm.gz",
-      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-stkv0ieuyv.gz",
+      "AssetFile": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/compressed/6qm3xd3ikb-kdgzailsjj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22445,7 +22445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "Content-Type",
@@ -22453,11 +22453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22475,7 +22475,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ="
+          "Value": "sha256-o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4="
         }
       ]
     },

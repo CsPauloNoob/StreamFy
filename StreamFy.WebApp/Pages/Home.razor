@@ -31,14 +31,14 @@
 
 @code
 {
-    private List<MusicaViewM> _musicas = new()
+    private List<MusicaReq> _musicas = new()
     {
-        new MusicaViewM { Nome = "Musica 1", ImagemUrl = "images/image1.jpg" },
-        new MusicaViewM { Nome = "Musica 2", ImagemUrl = "images/image1.jpg" },
-        new MusicaViewM { Nome = "Musica 3", ImagemUrl = "images/image1.jpg" },
-        new MusicaViewM { Nome = "Musica 4", ImagemUrl = "images/image1.jpg" },
-        new MusicaViewM { Nome = "Musica 5", ImagemUrl = "images/image1.jpg" },
-        new MusicaViewM { Nome = "Musica 6", ImagemUrl = "images/image1.jpg" }
+        new MusicaReq { Nome = "Musica 1", ImagemUrl = "images/image1.jpg" },
+        new MusicaReq { Nome = "Musica 2", ImagemUrl = "images/image1.jpg" },
+        new MusicaReq { Nome = "Musica 3", ImagemUrl = "images/image1.jpg" },
+        new MusicaReq { Nome = "Musica 4", ImagemUrl = "images/image1.jpg" },
+        new MusicaReq { Nome = "Musica 5", ImagemUrl = "images/image1.jpg" },
+        new MusicaReq { Nome = "Musica 6", ImagemUrl = "images/image1.jpg" }
     };
 
     protected override void OnInitialized()
@@ -47,12 +47,12 @@
             _navgationManager.NavigateTo("/login");
     }
 
-    void Favoritar(MusicaViewM musica)
+    void Favoritar(MusicaReq musica)
     {
         musica.Favorito = !musica.Favorito;
     }
 
-    string GetFavoritoIcon(MusicaViewM musica)
+    string GetFavoritoIcon(MusicaReq musica)
     {
         return musica.Favorito ? 
             Icons.Material.Filled.Favorite : 

@@ -42,3 +42,4 @@
 /home/paulo/RiderProjects/Streamfy/StreamFy.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/paulo/RiderProjects/Streamfy/StreamFy.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/paulo/RiderProjects/Streamfy/StreamFy.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/paulo/RiderProjects/Streamfy/StreamFy.Api/obj/Debug/net9.0/StreamFy.Api.sourcelink.json

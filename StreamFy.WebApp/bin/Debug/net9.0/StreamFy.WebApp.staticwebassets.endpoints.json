@@ -9605,8 +9605,8 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9619,305 +9619,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24296"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000056401579"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ub8lq4lcq"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.pdb.gz"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24296"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000056401579"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-60qwbRD/aSxO4w65ri39EWs8pGb3B6Ubxci3NnQMwWU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb.gz",
-      "AssetFile": "_framework/StreamFy.WebApp.3ub8lq4lcq.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oFlSXUeHPaekv290wv1f1SS5LnYHjADdxKc534aqAg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21781"
+          "Value": "23317"
         },
         {
           "Name": "Content-Type",
@@ -9925,21 +9627,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         },
         {
           "Name": "label",
@@ -9948,13 +9650,13 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000105988341"
+          "Quality": "0.000100684656"
         }
       ],
       "ResponseHeaders": [
@@ -9972,7 +9674,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "Content-Type",
@@ -9980,15 +9682,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "W/\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Vary",
@@ -9998,11 +9700,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         },
         {
           "Name": "label",
@@ -10011,8 +9713,8 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
+      "Route": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10029,7 +9731,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "Content-Type",
@@ -10037,11 +9739,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Vary",
@@ -10051,11 +9753,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "stkv0ieuyv"
+          "Value": "kdgzailsjj"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ="
+          "Value": "sha256-o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4="
         },
         {
           "Name": "label",
@@ -10064,8 +9766,8 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.wasm",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm",
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10078,36 +9780,36 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21781"
+          "Value": "25012"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
         }
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.wasm",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000105988341"
+          "Quality": "0.000054704595"
         }
       ],
       "ResponseHeaders": [
@@ -10125,23 +9827,23 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "18279"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk=\""
+          "Value": "W/\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Vary",
@@ -10151,13 +9853,311 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Jx9lLF4ZPvgV0wBOyZC9NJtG00ANwr1Z1xUvV3nEGk="
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb.gz",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000054704595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
+      "AssetFile": "_framework/StreamFy.WebApp.w55vm3rvlm.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w55vm3rvlm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJP9aAVmKL52IkXFIa/ft0Bjdj4C4XIfMBTKMyFwSPs="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.pdb.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.wasm",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.wasm",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000100684656"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
         }
       ]
     },
     {
       "Route": "_framework/StreamFy.WebApp.wasm.gz",
-      "AssetFile": "_framework/StreamFy.WebApp.stkv0ieuyv.wasm.gz",
+      "AssetFile": "_framework/StreamFy.WebApp.kdgzailsjj.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10174,7 +10174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9434"
+          "Value": "9931"
         },
         {
           "Name": "Content-Type",
@@ -10182,11 +10182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ=\""
+          "Value": "\"o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:07 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         },
         {
           "Name": "Vary",
@@ -10196,7 +10196,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+jSarKMIWsQm0klERx9FRua0ZTBorI7vR1zTf3+aqkQ="
+          "Value": "sha256-o1H4oCfS7nlKm+ZuB2/TOfAVSOfCO94w9fj7RcgOcJ4="
         }
       ]
     },
@@ -58499,17 +58499,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co=\""
+          "Value": "\"TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 16:16:06 GMT"
+          "Value": "Fri, 27 Jun 2025 20:56:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co="
+          "Value": "sha256-TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI="
         }
       ]
     },
@@ -58546,15 +58546,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo=\""
+          "Value": "\"na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co=\""
+          "Value": "W/\"TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 15:48:12 GMT"
+          "Value": "Fri, 27 Jun 2025 20:54:10 GMT"
         },
         {
           "Name": "Vary",
@@ -58564,7 +58564,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZYdOtMHsCJbCu73Y63gRgfCqqhMnm47p0VZDRFkN6co="
+          "Value": "sha256-TnJ91HyBoSTzglIbq4YHGb6HE3Ai9ayaFBv0tC2YuqI="
         }
       ]
     },
@@ -58595,11 +58595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo=\""
+          "Value": "\"na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 15:48:12 GMT"
+          "Value": "Fri, 27 Jun 2025 20:54:10 GMT"
         },
         {
           "Name": "Vary",
@@ -58609,7 +58609,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jGagiqj9CEycjoeT2vUp7swKKXmbHglIlj25Qsn8Bmo="
+          "Value": "sha256-na1WYkT71qdOXU9/EZE7gSA1Il4SO4TWxgZr/icyMMk="
         }
       ]
     },
