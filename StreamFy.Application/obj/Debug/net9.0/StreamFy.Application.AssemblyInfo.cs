@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamFy.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a194e3f46ee9912ed1d5b0dc476e8e0c7fc206")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b486db1aec824c4c1ce7621c2cb088d982c52ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamFy.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamFy.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
