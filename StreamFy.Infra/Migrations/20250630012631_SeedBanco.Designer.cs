@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StreamFy.Infra.Dados;
 
@@ -10,9 +11,11 @@ using StreamFy.Infra.Dados;
 namespace StreamFy.Infra.Migrations
 {
     [DbContext(typeof(StramFyContext))]
-    partial class StramFyContextModelSnapshot : ModelSnapshot
+    [Migration("20250630012631_SeedBanco")]
+    partial class SeedBanco
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -25,4 +25,12 @@ public class AuthController : ControllerBase
         
         return Ok(usuario);
     }
+
+    [HttpPost("register")]
+    public ActionResult<Usuario> RegistrarUsuario(UsuarioReq usuarioReq)
+    {
+        var usuario = _usuarioApp.RegistrarUsuario(usuarioReq.Nome, usuarioReq.Email, usuarioReq.Senha);
+
+        return Ok(usuario);
+    }
 }

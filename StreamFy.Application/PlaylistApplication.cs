@@ -1,13 +1,27 @@
+using StreamFy.Core.Interfaces;
 using StreamFy.Core.Modelos;
 
 namespace StreamFy.Application;
 
 public class PlaylistApplication
 {
+    private readonly IMusicaRepository _musicaRepo;
+
+    public PlaylistApplication(IMusicaRepository musicaRepository)
+    {
+        _musicaRepo = musicaRepository;
+    }
+
     public Playlist AdicionarMusica(int playlistId, int musicaId)
     {
-        
-
         return new Playlist();
     }
+
+    public List<Musica> RecuperarMusicas(int quantidade)
+    {
+        var musicas = _musicaRepo.RecuperarMusicas(quantidade).GetAwaiter().GetResult();
+
+        return musicas ?? new List<Musica>();
+    }
+
 }

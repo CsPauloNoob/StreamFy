@@ -1097,8 +1097,6 @@ E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_f
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\mscorlib.wzkfrp7u5k.wasm
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\MudBlazor.xvq74qoukm.wasm
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\netstandard.d82br99ghv.wasm
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.qhd68ntxt6.pdb
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.b5z36jukyd.wasm
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.brstoo7rmv.wasm
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.y31fti4j86.wasm
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.kb0mdoldj7.wasm
@@ -1313,7 +1311,6 @@ E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_f
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Console.1jhnsmjkui.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Cng.zisg2o9bw2.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.Primitives.ztjd6fle53.wasm.gz
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.b5z36jukyd.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Data.oomazoigjz.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\WindowsBase.5lai2eowco.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XDocument.c58f4n7gkk.wasm.gz
@@ -1364,7 +1361,6 @@ E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_f
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Security.SecureString.la8q9i6aou.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.DispatchProxy.5k0oiq8v01.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.HttpListener.g1z5na32ay.wasm.gz
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.qhd68ntxt6.pdb.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebSockets.Client.8c4uwwg311.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Private.Xml.Linq.89larmi1tf.wasm.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebProxy.la91e3qlbb.wasm.gz
@@ -2093,9 +2089,6 @@ E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\2g9fy89efo-tjcz0u77k5.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\61uvxxrv06-tptq2av103.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\mxl5bdjstc-lfu7j35m59.gz
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\6qm3xd3ikb-b5z36jukyd.gz
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\hjkh66ml20-qhd68ntxt6.gz
-E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\e6c7jp3f5v-1kanwfscnl.gz
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\staticwebassets.build.json
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\staticwebassets.development.json
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -2111,3 +2104,10 @@ E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\StreamFy.W
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\refint\StreamFy.WebApp.dll
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\StreamFy.WebApp.pdb
 E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\ref\StreamFy.WebApp.dll
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.oy305b9bet.pdb
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.8zn2af7a5v.wasm
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.8zn2af7a5v.wasm.gz
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\bin\Debug\net9.0\wwwroot\_framework\StreamFy.WebApp.oy305b9bet.pdb.gz
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\6qm3xd3ikb-8zn2af7a5v.gz
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\hjkh66ml20-oy305b9bet.gz
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\obj\Debug\net9.0\compressed\e6c7jp3f5v-chhav546b5.gz

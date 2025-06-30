@@ -16,6 +16,7 @@ public static class FabricaUsuario
         
         return new Usuario()
         {
+            Id = Guid.NewGuid().ToString(),
             Nome = nome,
             Email = email,
             Senha = senha,

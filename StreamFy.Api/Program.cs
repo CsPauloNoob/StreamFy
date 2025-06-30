@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using StreamFy.Application;
+using StreamFy.Core.Interfaces;
 using StreamFy.Infra.Dados;
+using StreamFy.Infra.Repositorios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<UsuarioApplication>();
+builder.Services.AddScoped<PlaylistApplication>();
+
+builder.Services.AddScoped(
+    typeof(IUsuarioRepository), 
+    typeof(UsuarioRepository));
+
+builder.Services.AddScoped(
+    typeof(IMusicaRepository), 
+    typeof(MusicaRepository));
 
 #if DEBUG
 builder.Services.AddDbContext<StramFyContext>(options =>

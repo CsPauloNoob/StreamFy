@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamFy.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dcf7c0468d796d65b378a2888a8a93b01e57582")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+382afa4ce456f2ceaa100d79a407ad4058130abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamFy.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamFy.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

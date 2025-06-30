@@ -16,7 +16,7 @@ public class MusicaController : ControllerBase
         _playlistApp = playlistApp;
     }
     
-    [HttpPost]
+    [HttpPost("playlist")]
     public ActionResult<Playlist> AdicionarMusicaPlaylist(MusicaActionReq actionReq)
     {
         var playlistUpdate = 
@@ -25,5 +25,16 @@ public class MusicaController : ControllerBase
                 actionReq.musicaId);
 
         return playlistUpdate;
+    }
+
+    [HttpGet]
+    public ActionResult<List<Musica>> GetMusicas(int quantidade)
+    {
+        var musicas = _playlistApp.RecuperarMusicas(quantidade);
+
+        if (musicas == null || !musicas.Any())
+            return NotFound("Nenhuma música encontrada.");
+
+        return Ok(musicas);
     }
 }
