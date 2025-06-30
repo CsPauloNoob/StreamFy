@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using StreamFy.Application;
+using StreamFy.Infra.Dados;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +13,21 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<UsuarioApplication>();
 
+#if DEBUG
+builder.Services.AddDbContext<StramFyContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+#endif
+
+builder.Services.AddDbContext<StramFyContext>(options =>
+    options.UseSqlServer(Environment.GetEnvironmentVariable("conn"))
+    );
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

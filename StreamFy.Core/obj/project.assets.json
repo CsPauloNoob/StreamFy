@@ -8,25 +8,33 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/paulo/.nuget/packages/": {}
+    "C:\\Users\\T-GAMER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
+      "projectUniqueName": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj",
       "projectName": "StreamFy.Core",
-      "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
-      "packagesPath": "/home/paulo/.nuget/packages/",
-      "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/",
+      "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj",
+      "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+      "outputPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/paulo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/home/paulo/.dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\T-GAMER\\Documents\\Nuggets soltos": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +53,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -66,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

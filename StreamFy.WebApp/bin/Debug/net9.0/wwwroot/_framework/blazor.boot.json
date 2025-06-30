@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "StreamFy.WebApp",
   "resources": {
-    "hash": "sha256-4Tt4XRikd3/KVHTNaPknFrB9TESjQvLULIXQXUqyBwE=",
+    "hash": "sha256-7RIql4NB27XzUg5BAocqRAatvX7zeafPPmhyPt+PL50=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -204,8 +204,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "StreamFy.WebApp.kdgzailsjj.wasm": "StreamFy.WebApp.wasm",
-      "StreamFy.WebApp.w55vm3rvlm.pdb": "StreamFy.WebApp.pdb"
+      "StreamFy.WebApp.b5z36jukyd.wasm": "StreamFy.WebApp.wasm",
+      "StreamFy.WebApp.qhd68ntxt6.pdb": "StreamFy.WebApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -418,10 +418,10 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "StreamFy.WebApp.kdgzailsjj.wasm": "sha256-qF9jZ99cQpUhgA6YHy8kJE076jpL22MW0A2wK5jvmyU="
+      "StreamFy.WebApp.b5z36jukyd.wasm": "sha256-r6Y9y4aPdjsODO94We4jy7JU+lChBtWJWJHFbU9YZks="
     },
     "pdb": {
-      "StreamFy.WebApp.w55vm3rvlm.pdb": "sha256-5F0HeGE7rH1hvSvdn2iqcN2xCqNHj3yt8r68FesruZs="
+      "StreamFy.WebApp.qhd68ntxt6.pdb": "sha256-MqKJrAbxVrKzUPhhG+g1OxAO8c5vKM0RgKD8NXwRoZQ="
     }
   },
   "cacheBootResources": true,

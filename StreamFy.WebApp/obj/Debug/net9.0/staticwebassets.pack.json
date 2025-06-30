@@ -1,51 +1,51 @@
 {
   "Files": [
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
-      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/obj/Debug/net9.0/scopedcss/bundle/StreamFy.WebApp.styles.css",
-      "PackagePath": "staticwebassets/StreamFy.WebApp.styles.css"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StreamFy.WebApp.styles.css",
+      "PackagePath": "staticwebassets\\StreamFy.WebApp.styles.css"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/wwwroot/css/app.css",
-      "PackagePath": "staticwebassets/css/app.css"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/wwwroot/icon-192.png",
-      "PackagePath": "staticwebassets/icon-192.png"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/wwwroot/images/image1.jpg",
-      "PackagePath": "staticwebassets/images/image1.jpg"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\wwwroot\\images\\image1.jpg",
+      "PackagePath": "staticwebassets\\images\\image1.jpg"
     },
     {
-      "Id": "/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
+      "Id": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StreamFy.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StreamFy.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StreamFy.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StreamFy.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.StreamFy.WebApp.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.StreamFy.WebApp.props",
       "PackagePath": "build\\StreamFy.WebApp.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.StreamFy.WebApp.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.StreamFy.WebApp.props",
       "PackagePath": "buildMultiTargeting\\StreamFy.WebApp.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.StreamFy.WebApp.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.StreamFy.WebApp.props",
       "PackagePath": "buildTransitive\\StreamFy.WebApp.props"
     }
   ],

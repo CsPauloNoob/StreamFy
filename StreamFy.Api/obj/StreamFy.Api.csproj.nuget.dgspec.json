@@ -1,34 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "/home/paulo/RiderProjects/Streamfy/StreamFy.Api/StreamFy.Api.csproj": {}
+    "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Api\\StreamFy.Api.csproj": {}
   },
   "projects": {
-    "/home/paulo/RiderProjects/Streamfy/StreamFy.Api/StreamFy.Api.csproj": {
+    "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Api\\StreamFy.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Api/StreamFy.Api.csproj",
+        "projectUniqueName": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Api\\StreamFy.Api.csproj",
         "projectName": "StreamFy.Api",
-        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Api/StreamFy.Api.csproj",
-        "packagesPath": "/home/paulo/.nuget/packages/",
-        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Api/obj/",
+        "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Api\\StreamFy.Api.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/paulo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/home/paulo/.dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\T-GAMER\\Documents\\Nuggets soltos": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj": {
-                "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj"
+              "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\StreamFy.Application.csproj": {
+                "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\StreamFy.Application.csproj"
               }
             }
           }
@@ -43,7 +50,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -53,9 +60,23 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -81,38 +102,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj": {
+    "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\StreamFy.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj",
+        "projectUniqueName": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\StreamFy.Application.csproj",
         "projectName": "StreamFy.Application",
-        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/StreamFy.Application.csproj",
-        "packagesPath": "/home/paulo/.nuget/packages/",
-        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Application/obj/",
+        "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\StreamFy.Application.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/paulo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/home/paulo/.dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\T-GAMER\\Documents\\Nuggets soltos": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj": {
-                "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj"
+              "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj": {
+                "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj"
               },
-              "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj": {
-                "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj"
+              "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\StreamFy.Infra.csproj": {
+                "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\StreamFy.Infra.csproj"
               }
             }
           }
@@ -127,7 +155,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -148,27 +176,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj": {
+    "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
+        "projectUniqueName": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj",
         "projectName": "StreamFy.Core",
-        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/StreamFy.Core.csproj",
-        "packagesPath": "/home/paulo/.nuget/packages/",
-        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/",
+        "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/paulo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/home/paulo/.dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\T-GAMER\\Documents\\Nuggets soltos": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -187,7 +222,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -208,33 +243,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj": {
+    "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\StreamFy.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj",
+        "projectUniqueName": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\StreamFy.Infra.csproj",
         "projectName": "StreamFy.Infra",
-        "projectPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/StreamFy.Infra.csproj",
-        "packagesPath": "/home/paulo/.nuget/packages/",
-        "outputPath": "/home/paulo/RiderProjects/Streamfy/StreamFy.Infra/obj/",
+        "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\StreamFy.Infra.csproj",
+        "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/paulo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/home/paulo/.dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\T-GAMER\\Documents\\Nuggets soltos": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj": {
+                "projectPath": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.Core\\StreamFy.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -247,11 +293,27 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -268,7 +330,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/paulo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
