@@ -1,5 +1,8 @@
 @page "/login"
+@using StreamFy.WebApp.Models
+@using StreamFy.WebApp.Requests
 @inject NavigationManager _navManager
+@inject ISnackbar _snackbar
 
 
 <h3>Login</h3>
@@ -9,7 +12,8 @@
         
         <MudCardContent>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
-            
+
+            <MudTextField @bind-Value="_nome" InputType="InputType.Text" Label="Nome" FullWidth="true" Disabled="_reg"/>
             <MudTextField @bind-Value="_email" InputType="InputType.Email" Label="Email" FullWidth="true"/>
             <MudTextField @bind-Value="_password" Label="Senha" InputType="InputType.Password" FullWidth="true"/>
             
@@ -18,7 +22,7 @@
                     Entrar
                 </MudButton>
                 
-                <MudButton Color="Color.Dark" FullWidth="true" Class="mt-8 ml-2" OnClick="TentativaLogin">
+                <MudButton Color="Color.Dark" FullWidth="true" Class="mt-8 ml-2" OnClick="TentativaRegistrar">
                     Registrar
                 </MudButton>
             </MudPaper>
@@ -29,15 +33,60 @@
     </MudCard>
 </MudPaper>
 
+
 @code {
     private string _email;
+    private string _nome;
     private string _password;
+    private bool _reg = true;
 
-    private void TentativaLogin()
+    [Inject] 
+    public UsuarioEndpoint _usuarioEndpoint { get; set; }
+
+    private async Task TentativaLogin()
     {
-        if (!string.IsNullOrEmpty(_email))
+        if(string.IsNullOrEmpty(_email) || 
+           string.IsNullOrEmpty(_password))
         {
-            _navManager.NavigateTo("/");
+            _snackbar.Add("Você precisa preencher todos os campos", Severity.Error);
+            return;
         }
+        
+        var usuario = await _usuarioEndpoint
+            .RegistrarUsuario(new UsuarioReq()
+            {
+                Email = _email,
+                Senha = _password,
+                Nome = _nome
+            });
+        
+        UsuarioLogado.usuarioLogadoInfo = usuario;
+        UsuarioLogado.Logado = true;
+        
+        _navManager.NavigateTo("/");
+    }
+
+    private async Task TentativaRegistrar()
+    {
+        if(string.IsNullOrEmpty(_email) || 
+           string.IsNullOrEmpty(_password))
+        {
+            _snackbar.Add("Você precisa preencher todos os campos", Severity.Error);
+            _reg = false;
+            return;
+        }
+
+        var usuario = await _usuarioEndpoint
+            .RegistrarUsuario(new UsuarioReq()
+        {
+            Email = _email,
+            Senha = _password,
+            Nome = _nome
+        });
+
+        UsuarioLogado.usuarioLogadoInfo = usuario;
+        UsuarioLogado.Logado = true;
+        
+        _navManager.NavigateTo("/");
     }
 }

@@ -1,0 +1,148 @@
+@page "/assinar"
+@using StreamFy.WebApp.Models
+@using StreamFy.WebApp.Requests
+@inject ISnackbar _snackbar
+@inject IDialogService _dialogService
+
+<MudContainer Class="mt-16">
+    <MudText Typo="Typo.h3" Align="Align.Center" GutterBottom="true">Planos</MudText>
+    <MudText Align="Align.Center">Escolha o plano de assinatura ideal para você.</MudText>
+    <MudGrid Class="mt-8">
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Grátis com anúncios</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.h3">R$0</MudText>
+                        <MudText Typo="Typo.h5" Class="ml-1 mt-5" Color="Color.Secondary">/Mês</MudText>
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Podcasts
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Audio em alta definição
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Letras para karaoke
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+                    <MudButton OnClick="() => AssinarPlano(0)" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Disabled="true" Style="width:50%;">Adquirido</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Premium</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.h3">R$15</MudText>
+                        <MudText Typo="Typo.h5" Class="ml-1 mt-5" Color="Color.Secondary">/Mês</MudText>
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Tudo da camada Grátis
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Playslist Ilimitadas
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Sem Anúncios
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+                    <MudButton OnClick="() => AssinarPlano(1)" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">Assinar!</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="12" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Premium +</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.h3">$15</MudText>
+                        <MudText Typo="Typo.h5" Class="ml-1 mt-5" Color="Color.Secondary">/Mês</MudText>
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Tudo da camada Premium
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Downloads para ouvir offline
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Buscas avançadas com IA
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+                    <MudButton OnClick="() => AssinarPlano(2)" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">Assinar!</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+
+@code
+{
+    [Inject]
+    public UsuarioEndpoint _usuarioEndpoint { get; set; }
+
+    public async Task AssinarPlano(int plano)
+    {
+        Planos planoSelecionado = (Planos)plano;
+
+        var planoAtual = UsuarioLogado.usuarioLogadoInfo.Plano;
+
+        if (planoAtual != planoSelecionado)
+        {
+            int preco = 0;
+            
+            if (plano == 1) preco = 10;
+            else preco = 15;
+
+            bool? dialogRes = await _dialogService.ShowMessageBox(
+                "Detalhes do pedido:",
+                (MarkupString)$"Plano Selecionado {Enum.GetName(planoSelecionado)} <br /> Valor: R${preco} <br />Valor a pagar: <u>R${preco}</u>", yesText: "Assinar",
+                cancelText: "Cancelar pedido") ?? false;
+
+
+
+            if (dialogRes!.Value)
+            {
+                var result = await _usuarioEndpoint
+                    .AlterarPlano(UsuarioLogado.usuarioLogadoInfo,
+                        planoSelecionado);
+
+                if (result.Plano == planoSelecionado)
+                {
+                    UsuarioLogado.usuarioLogadoInfo = result;
+                    _snackbar.Add("Plano assinado com sucesso", Severity.Success);
+                }
+            }
+
+            else return;
+        }
+
+        else
+        {
+            _snackbar.Add("Plano já assinado!", Severity.Success);
+        }
+    }
+}

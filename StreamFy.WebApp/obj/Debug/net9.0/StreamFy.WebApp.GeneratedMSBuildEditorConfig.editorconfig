@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/Pages/Price.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

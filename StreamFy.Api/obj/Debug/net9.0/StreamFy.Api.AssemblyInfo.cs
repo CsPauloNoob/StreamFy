@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamFy.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30ef191eb13f03987b9f15d641901166c6978da8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff23a23e08ceeae86828cbbda62355ca19fcacb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamFy.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamFy.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

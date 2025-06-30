@@ -1,4 +1,4 @@
-namespace StreamFy.Core.Enums;
+namespace StreamFy.WebApp.Models;
 
 public enum Planos
 {
