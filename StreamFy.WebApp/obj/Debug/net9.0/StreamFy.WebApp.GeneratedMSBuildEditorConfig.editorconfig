@@ -16,37 +16,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = StreamFy.WebApp
 build_property.RootNamespace = StreamFy.WebApp
-build_property.ProjectDir = /home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/
+build_property.ProjectDir = E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/paulo/RiderProjects/Streamfy/StreamFy.WebApp
+build_property.MSBuildProjectDirectory = E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/App.razor]
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/_Imports.razor]
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-drn2fow5j4
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2zfseasnkb
 
-[/home/paulo/RiderProjects/Streamfy/StreamFy.WebApp/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-98lcu0pfdz
+[E:/Projetos/Infnet/StreamFy/StreamFy/StreamFy.WebApp/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g67wfid2b1

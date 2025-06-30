@@ -10,3 +10,15 @@
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/StreamFy.Core.pdb
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/ref/StreamFy.Core.dll
 /home/paulo/RiderProjects/Streamfy/StreamFy.Core/obj/Debug/net9.0/StreamFy.Core.sourcelink.json
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\bin\Debug\net9.0\StreamFy.Core.deps.json
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\bin\Debug\net9.0\StreamFy.Core.dll
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\bin\Debug\net9.0\StreamFy.Core.pdb
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.AssemblyInfoInputs.cache
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.AssemblyInfo.cs
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.csproj.CoreCompileInputs.cache
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.sourcelink.json
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.dll
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\refint\StreamFy.Core.dll
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\StreamFy.Core.pdb
+E:\Projetos\Infnet\StreamFy\StreamFy\StreamFy.Core\obj\Debug\net9.0\ref\StreamFy.Core.dll
