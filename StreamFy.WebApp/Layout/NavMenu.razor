@@ -3,6 +3,10 @@
         Edge="Edge.Start" 
         Icon="@Icons.Material.Rounded.LibraryMusic" Size="Size.Large" Color="Color.Primary"/>
     <MudText Typo="Typo.h5">StreamFy!</MudText>
+
+    <MudSpacer/>
+    
+    <MudTextField OnAdornmentClick="Pesquisar" Style="background-color: antiquewhite" Variant="Variant.Outlined" Label="Procurar"  @bind-Value="_key" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Secondary"/>
     
     <MudSpacer/>
     
@@ -14,3 +18,13 @@
         Href="/assinar"
         Edge="Edge.End"/>
 </MudAppBar>
+
+@code
+{
+    public string _key;
+
+    public async Task Pesquisar()
+    {
+        _key = "";
+    }
+}

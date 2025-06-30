@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamFy.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b486db1aec824c4c1ce7621c2cb088d982c52ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47f244ed4a585bdba909fc2e19ddbb73f69b7ac9")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamFy.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamFy.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

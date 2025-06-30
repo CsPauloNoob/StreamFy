@@ -11,4 +11,6 @@ public class UsuarioReq
     public string Senha { get; set; }
     
     public string? Nome { get; set; }
+    
+    public Planos Plano { get; set; }
 }

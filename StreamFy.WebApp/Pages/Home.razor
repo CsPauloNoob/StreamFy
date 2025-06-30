@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using StreamFy.WebApp.Models
+@using StreamFy.WebApp.Requests
 @inject NavigationManager _navgationManager
 
 <MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
@@ -31,20 +32,24 @@
 
 @code
 {
-    private List<MusicaReq> _musicas = new()
-    {
-        new MusicaReq { Nome = "Musica 1", ImagemUrl = "images/image1.jpg" },
-        new MusicaReq { Nome = "Musica 2", ImagemUrl = "images/image1.jpg" },
-        new MusicaReq { Nome = "Musica 3", ImagemUrl = "images/image1.jpg" },
-        new MusicaReq { Nome = "Musica 4", ImagemUrl = "images/image1.jpg" },
-        new MusicaReq { Nome = "Musica 5", ImagemUrl = "images/image1.jpg" },
-        new MusicaReq { Nome = "Musica 6", ImagemUrl = "images/image1.jpg" }
-    };
+    [Inject]
+    private UsuarioEndpoint _usuarioEndpoint { get; set; }
+
+    [Inject] private MusicaEndpoint _musicaEndpoint { get; set; }
+
+    private List<MusicaReq> _musicas = new();
 
     protected override void OnInitialized()
     {
-        if(!ContaConfig.ContaLogada)
+        if(!UsuarioLogado.Logado)
             _navgationManager.NavigateTo("/login");
+
+        else
+        {
+            _musicas = _musicaEndpoint.GetMusicas()
+                .GetAwaiter()
+                .GetResult();
+        }
     }
 
     void Favoritar(MusicaReq musica)
