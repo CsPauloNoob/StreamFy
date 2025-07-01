@@ -19,6 +19,7 @@ namespace StreamFy.Infra.Repositorios
         {
             var musicas = await _context.Musicas
                 .Take(limite)
+                .Include(m => m.Autor)
                 .ToListAsync();
 
             return musicas;

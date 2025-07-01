@@ -22,8 +22,10 @@ public class AuthController : ControllerBase
     public ActionResult<Usuario> Login(UsuarioReq usuarioReq)
     {
         var usuario = _usuarioApp.Login(usuarioReq.Email, usuarioReq.Senha);
-        
-        return Ok(usuario);
+
+        var usuarioRes = ConverterParaUsuarioReq(usuario);
+
+        return Ok(usuarioRes);
     }
 
     [HttpPost("register")]
@@ -31,6 +33,20 @@ public class AuthController : ControllerBase
     {
         var usuario = _usuarioApp.RegistrarUsuario(usuarioReq.Nome, usuarioReq.Email, usuarioReq.Senha);
 
-        return Ok(usuario);
+        var usuarioRes = ConverterParaUsuarioReq(usuario);
+
+        return Ok(usuarioRes);
+    }
+
+    private UsuarioReq ConverterParaUsuarioReq(Usuario usuario)
+    {
+        return new UsuarioReq
+        {
+            Id = int.TryParse(usuario.Id, out var id) ? id : 0,
+            Nome = usuario.Nome,
+            Email = usuario.Email,
+            Plano = usuario.Plano
+            // Não inclua a senha por segurança
+        };
     }
 }

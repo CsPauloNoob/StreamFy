@@ -6,10 +6,9 @@ public class MusicaEndpoint
 {
     private readonly HttpClient _client;
 
-    public MusicaEndpoint()
+    public MusicaEndpoint(HttpClient client)
     {
-        _client = new HttpClient();
-        _client.BaseAddress = new Uri("http://localhost:5000");
+        _client = client;
     }
 
 

@@ -36,7 +36,7 @@ namespace StreamFy.Infra.Migrations
                     b.ToTable("MusicaPlaylist");
                 });
 
-            modelBuilder.Entity("StreamFy.Core.Modelos.Musica", b =>
+            modelBuilder.Entity("StreamFy.Core.Modelos.Autor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,33 +50,142 @@ namespace StreamFy.Infra.Migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("Autores");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nome = "Queen"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nome = "Led Zeppelin"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nome = "Eagles"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nome = "Guns N' Roses"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Nome = "John Lennon"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Nome = "Nirvana"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Nome = "Oasis"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Nome = "The Beatles"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Nome = "Bob Dylan"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Nome = "Michael Jackson"
+                        });
+                });
+
+            modelBuilder.Entity("StreamFy.Core.Modelos.Musica", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AutorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AutorId");
+
                     b.ToTable("Musicas");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            AutorId = 1,
                             Nome = "Bohemian Rhapsody"
                         },
                         new
                         {
                             Id = 2,
+                            AutorId = 2,
                             Nome = "Stairway to Heaven"
                         },
                         new
                         {
                             Id = 3,
+                            AutorId = 3,
                             Nome = "Hotel California"
                         },
                         new
                         {
                             Id = 4,
+                            AutorId = 4,
                             Nome = "Sweet Child O' Mine"
                         },
                         new
                         {
                             Id = 5,
+                            AutorId = 5,
                             Nome = "Imagine"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AutorId = 6,
+                            Nome = "Smells Like Teen Spirit"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AutorId = 7,
+                            Nome = "Wonderwall"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AutorId = 8,
+                            Nome = "Hey Jude"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            AutorId = 9,
+                            Nome = "Like a Rolling Stone"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            AutorId = 10,
+                            Nome = "Billie Jean"
                         });
                 });
 
@@ -146,11 +255,27 @@ namespace StreamFy.Infra.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("StreamFy.Core.Modelos.Musica", b =>
+                {
+                    b.HasOne("StreamFy.Core.Modelos.Autor", "Autor")
+                        .WithMany("Musicas")
+                        .HasForeignKey("AutorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Autor");
+                });
+
             modelBuilder.Entity("StreamFy.Core.Modelos.Playlist", b =>
                 {
                     b.HasOne("StreamFy.Core.Modelos.Usuario", null)
                         .WithMany("Playlists")
                         .HasForeignKey("UsuarioId");
+                });
+
+            modelBuilder.Entity("StreamFy.Core.Modelos.Autor", b =>
+                {
+                    b.Navigation("Musicas");
                 });
 
             modelBuilder.Entity("StreamFy.Core.Modelos.Usuario", b =>
