@@ -18,18 +18,32 @@ public class UsuarioEndpoint
         var url = _client.BaseAddress + "auth/register";
         var result = await _client.PostAsJsonAsync(url, usuario);
 
-        return result.Content.As<UsuarioReq>();
+        if (result.IsSuccessStatusCode)
+        {
+            var usuarioRegistrado = await result.Content.ReadFromJsonAsync<UsuarioReq>();
+            return usuarioRegistrado!;
+        }
+        else
+        {
+            // Trate o erro conforme necessário, por exemplo, lançando uma exceção ou retornando null
+            throw new Exception("Erro ao registrar usuário: " + result.ReasonPhrase);
+        }
     }
 
     public async Task<UsuarioReq> Login(UsuarioReq usuario)
     {
-        return new UsuarioReq()
+        var url = _client.BaseAddress + "auth/login";
+        var result = await _client.PostAsJsonAsync(url, usuario);
+
+        if (result.IsSuccessStatusCode)
         {
-            Id = 123123,
-            Email = usuario.Email,
-            Senha = usuario.Senha,
-            Nome = usuario.Nome,
-        };
+            var usuarioLogado = await result.Content.ReadFromJsonAsync<UsuarioReq>();
+            return usuarioLogado!;
+        }
+        else
+        {
+            throw new Exception("Erro ao fazer login: " + result.ReasonPhrase);
+        }
     }
 
     public async Task<UsuarioReq> AlterarPlano(UsuarioReq usuario, Planos novoPlano)

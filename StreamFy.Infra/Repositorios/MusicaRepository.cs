@@ -24,5 +24,23 @@ namespace StreamFy.Infra.Repositorios
 
             return musicas;
         }
+
+        public async Task<List<Musica>> RecuperarMusicasPorNome(string nome)
+        {
+            var nomeLower = nome.ToLower();
+            return await _context.Musicas
+                .Include(m => m.Autor)
+                .Where(m => m.Nome.ToLower().Contains(nomeLower))
+                .ToListAsync();
+        }
+
+        public async Task<List<Musica>> RecuperarMusicasPorAutor(string nomeAutor)
+        {
+            var nomeAutorLower = nomeAutor.ToLower();
+            return await _context.Musicas
+                .Include(m => m.Autor)
+                .Where(m => m.Autor != null && m.Autor.Nome.ToLower().Contains(nomeAutorLower))
+                .ToListAsync();
+        }
     }
 }

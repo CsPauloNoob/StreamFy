@@ -15,41 +15,94 @@ public class MusicaController : ControllerBase
     {
         _playlistApp = playlistApp;
     }
-    
+
     [HttpPost("playlist")]
     public ActionResult<Playlist> AdicionarMusicaPlaylist(MusicaActionReq actionReq)
     {
-        var playlistUpdate = 
-            _playlistApp.AdicionarMusica(
-                actionReq.PlaylistId, 
-                actionReq.musicaId);
+        try
+        {
+            var playlistUpdate =
+                _playlistApp.AdicionarMusica(
+                    actionReq.PlaylistId,
+                    actionReq.musicaId);
 
-        return playlistUpdate;
+            return playlistUpdate;
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Erro ao adicionar música à playlist: {ex.Message}");
+        }
     }
 
     [HttpGet]
     public ActionResult<List<MusicaActionReq>> GetMusicas(int quantidade)
     {
-        var musicas = _playlistApp.RecuperarMusicas(quantidade);
+        try
+        {
+            var musicas = _playlistApp.RecuperarMusicas(quantidade);
 
-        if (musicas == null || !musicas.Any())
-            return NotFound("Nenhuma música encontrada.");
+            if (musicas == null || !musicas.Any())
+                return NotFound("Nenhuma música encontrada.");
 
-        var musicasReq = MapMusicasToActionReq(musicas);
+            var musicasReq = MapMusicasToActionReq(musicas);
 
-        return Ok(musicasReq);
+            return Ok(musicasReq);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Erro ao recuperar músicas: {ex.Message}");
+        }
     }
 
     private List<MusicaActionReq> MapMusicasToActionReq(List<Musica> musicas)
     {
         return musicas.Select(m => new MusicaActionReq
         {
+            Nome = m.Nome,
             musicaId = m.Id,
             BandaNome = m.Autor?.Nome ?? string.Empty,
-            // Defina os outros campos conforme necessário
-            UsuarioId = 0,
             PlaylistId = 0,
             Favorito = false
         }).ToList();
+    }
+
+    [HttpGet("buscar")]
+    public async Task<ActionResult<List<MusicaActionReq>>> BuscarMusicaPorNome(string nome)
+    {
+        try
+        {
+            var musicas = await _playlistApp.RecuperarMusicasPorNome(nome);
+
+            if (musicas == null || !musicas.Any())
+                return NotFound($"Nenhuma música encontrada com o nome '{nome}'.");
+
+            var musicasReq = MapMusicasToActionReq(musicas);
+
+            return Ok(musicasReq);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Erro ao buscar música por nome: {ex.Message}");
+        }
+    }
+
+    [HttpGet("buscar-autor")]
+    public async Task<ActionResult<List<MusicaActionReq>>> BuscarMusicaPorAutor(string nomeAutor)
+    {
+        try
+        {
+            var musicas = await _playlistApp.RecuperarMusicasPorAutor(nomeAutor);
+
+            if (musicas == null || !musicas.Any())
+                return NotFound($"Nenhuma música encontrada para o autor '{nomeAutor}'.");
+
+            var musicasReq = MapMusicasToActionReq(musicas);
+
+            return Ok(musicasReq);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Erro ao buscar música por autor: {ex.Message}");
+        }
     }
 }

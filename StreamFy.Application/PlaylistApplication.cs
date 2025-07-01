@@ -24,4 +24,17 @@ public class PlaylistApplication
         return musicas ?? new List<Musica>();
     }
 
+    public async Task<List<Musica>> RecuperarMusicasPorNome(string nome)
+    {
+        
+        var musicas =  await _musicaRepo.RecuperarMusicasPorNome(nome);
+
+        return musicas ?? new List<Musica>();
+    }
+
+
+    public async Task<List<Musica>> RecuperarMusicasPorAutor(string nomeAutor)
+    {
+        return await _musicaRepo.RecuperarMusicasPorAutor(nomeAutor);
+    }
 }

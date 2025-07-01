@@ -1,0 +1,55 @@
+﻿@page "/pesquisa/{key}"
+@using StreamFy.WebApp.Models
+@using StreamFy.WebApp.Requests
+
+<h3>Resultado da Pesquisa</h3>
+
+<MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
+    <MudText Typo="Typo.h5" Class="mb-4">Pesquisa por nome da musica e artista</MudText>
+
+    <div style="display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 16px;">
+
+        @foreach (var item in _musicas)
+        {
+            <MudCard Style="min-width: 200px; max-width: 200px;">
+                <MudCardMedia Image="@item.ImagemUrl" Height="140" />
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.Nome</MudText>
+                </MudCardContent>
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.BandaNome</MudText>
+                </MudCardContent>
+            </MudCard>
+        }
+
+    </div>
+
+</MudContainer>
+
+
+@code {
+    [Parameter]
+    public string Key { get; set; }
+
+    [Inject]
+    public MusicaEndpoint _musicaEndpoint { get; set; }
+
+    private List<MusicaReq> _musicas = new List<MusicaReq>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await _musicaEndpoint.BuscarMusica(Key);
+
+        if (result != null && result.Count > 0)
+        {
+            _musicas = result;
+        }
+        else
+        {
+            _musicas = new List<MusicaReq>();
+        }
+    }
+}

@@ -10,5 +10,7 @@ namespace StreamFy.Core.Interfaces
     public interface IMusicaRepository
     {
         Task<List<Musica>> RecuperarMusicas(int limite);
+        Task<List<Musica>> RecuperarMusicasPorNome(string nome);
+        Task<List<Musica>> RecuperarMusicasPorAutor(string nomeAutor);
     }
 }

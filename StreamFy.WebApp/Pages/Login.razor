@@ -53,11 +53,11 @@
         }
         
         var usuario = await _usuarioEndpoint
-            .RegistrarUsuario(new UsuarioReq()
+            .Login(new UsuarioReq()
             {
                 Email = _email,
                 Senha = _password,
-                Nome = _nome
+                Nome = _nome is null ? "Usuário" : _nome
             });
         
         UsuarioLogado.usuarioLogadoInfo = usuario;
@@ -81,7 +81,7 @@
         {
             Email = _email,
             Senha = _password,
-            Nome = _nome
+            Nome = _nome is null ? "Usuário" : _nome
         });
 
         UsuarioLogado.usuarioLogadoInfo = usuario;

@@ -1,22 +1,24 @@
-﻿<MudAppBar Elevation="4" Style="background-color: #1E2A38;">
+﻿@inject NavigationManager Navigation
+
+<MudAppBar Elevation="4" Style="background-color: #1E2A38;">
     <MudIconButton 
-        Edge="Edge.Start" 
-        Icon="@Icons.Material.Rounded.LibraryMusic" Size="Size.Large" Color="Color.Primary"/>
+    Edge="Edge.Start" 
+    Icon="@Icons.Material.Rounded.LibraryMusic" Size="Size.Large" Color="Color.Primary"/>
     <MudText Typo="Typo.h5">StreamFy!</MudText>
 
     <MudSpacer/>
-    
+
     <MudTextField OnAdornmentClick="Pesquisar" Style="background-color: antiquewhite" Variant="Variant.Outlined" Label="Procurar"  @bind-Value="_key" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Secondary"/>
-    
+
     <MudSpacer/>
-    
+
     <MudText Typo="Typo.h5">Assinar</MudText>
     <MudIconButton 
-        Icon="@Icons.Material.Rounded.MonetizationOn"
-        Color="Color.Primary"
-        Size="Size.Large"
-        Href="/assinar"
-        Edge="Edge.End"/>
+    Icon="@Icons.Material.Rounded.MonetizationOn"
+    Color="Color.Primary"
+    Size="Size.Large"
+    Href="/assinar"
+    Edge="Edge.End"/>
 </MudAppBar>
 
 @code
@@ -25,6 +27,9 @@
 
     public async Task Pesquisar()
     {
-        _key = "";
+        if (!string.IsNullOrWhiteSpace(_key))
+        {
+            Navigation.NavigateTo($"/pesquisa/{Uri.EscapeDataString(_key)}");
+        }
     }
 }

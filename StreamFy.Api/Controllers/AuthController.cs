@@ -21,21 +21,31 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public ActionResult<Usuario> Login(UsuarioReq usuarioReq)
     {
-        var usuario = _usuarioApp.Login(usuarioReq.Email, usuarioReq.Senha);
-
-        var usuarioRes = ConverterParaUsuarioReq(usuario);
-
-        return Ok(usuarioRes);
+        try
+        {
+            var usuario = _usuarioApp.Login(usuarioReq.Email, usuarioReq.Senha);
+            var usuarioRes = ConverterParaUsuarioReq(usuario);
+            return Ok(usuarioRes);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { Message = ex.Message });
+        }
     }
 
     [HttpPost("register")]
     public ActionResult<Usuario> RegistrarUsuario(UsuarioReq usuarioReq)
     {
-        var usuario = _usuarioApp.RegistrarUsuario(usuarioReq.Nome, usuarioReq.Email, usuarioReq.Senha);
-
-        var usuarioRes = ConverterParaUsuarioReq(usuario);
-
-        return Ok(usuarioRes);
+        try
+        {
+            var usuario = _usuarioApp.RegistrarUsuario(usuarioReq.Nome, usuarioReq.Email, usuarioReq.Senha);
+            var usuarioRes = ConverterParaUsuarioReq(usuario);
+            return Ok(usuarioRes);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { Message = ex.Message });
+        }
     }
 
     private UsuarioReq ConverterParaUsuarioReq(Usuario usuario)

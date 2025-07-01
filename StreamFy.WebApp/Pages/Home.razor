@@ -5,12 +5,12 @@
 
 <MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
     <MudText Typo="Typo.h5" Class="mb-4">Suas Musicas</MudText>
-    
+
     <div style="display: flex; 
     overflow-x: auto; 
     gap: 16px; 
     padding-bottom: 16px;">
-    
+
         @foreach (var item in _musicas)
         {
             <MudCard Style="min-width: 200px; max-width: 200px;">
@@ -18,16 +18,19 @@
                 <MudCardContent>
                     <MudText Typo="Typo.subtitle2">@item.Nome</MudText>
                 </MudCardContent>
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.BandaNome</MudText>
+                </MudCardContent>
                 <MudCardActions>
                     <MudIconButton Icon="@GetFavoritoIcon(item)" 
-                                   Color="Color.Error" 
-                                   OnClick="@(() => Favoritar(item))"/>
+                    Color="Color.Error" 
+                    OnClick="@(() => Favoritar(item))"/>
                 </MudCardActions>
             </MudCard>
         }
-        
+
     </div>
-    
+
 </MudContainer>
 
 @code
@@ -39,16 +42,14 @@
 
     private List<MusicaReq> _musicas = new();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
         if(!UsuarioLogado.Logado)
             _navgationManager.NavigateTo("/login");
 
         else
         {
-            _musicas = _musicaEndpoint.GetMusicas()
-                .GetAwaiter()
-                .GetResult();
+            _musicas = await _musicaEndpoint.GetMusicas();
         }
     }
 
