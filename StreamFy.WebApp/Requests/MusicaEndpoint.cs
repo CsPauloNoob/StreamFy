@@ -13,9 +13,9 @@ public class MusicaEndpoint
     }
 
 
-    public async Task<List<MusicaReq>> GetMusicas(int quantidade = 5)
+    public async Task<List<MusicaReq>> GetMusicas(int quantidade = 8)
     {
-        var url = _client.BaseAddress + "musica?quantidade="+5;
+        var url = _client.BaseAddress + "musica?quantidade="+ quantidade;
         var result = await _client.GetFromJsonAsync<List<MusicaReq>>(url);
 
         result.ForEach(m =>
@@ -33,17 +33,37 @@ public class MusicaEndpoint
 
     public async Task<List<MusicaReq>> BuscarMusica(string textoBusca)
     {
-        var url = _client.BaseAddress + "musica/buscar?nome=" + textoBusca;
-        var url2 = _client.BaseAddress + "musica/buscar-autor?nomeAutor=" + textoBusca;
+        var finalList = new List<MusicaReq>();
 
-        var result = await _client.GetFromJsonAsync<List<MusicaReq>>(url) ?? new List<MusicaReq>();
-        var result2 = await _client.GetFromJsonAsync<List<MusicaReq>>(url2) ?? new List<MusicaReq>();
+        try
+        {
+            var url = _client.BaseAddress + "musica/buscar?nome=" + textoBusca;
+            var result = await _client.GetFromJsonAsync<List<MusicaReq>>(url) ?? new List<MusicaReq>();
+            finalList.AddRange(result);
+        }
 
-        var finalList = result
-    .Concat(result2)
-    .GroupBy(m => m.musicaId)
-    .Select(g => g.First())
-    .ToList();
+        catch (Exception ex)
+        {
+            // Log exception or handle it as needed  
+            Console.WriteLine($"Erro ao buscar músicas: {ex.Message}");
+        }
+
+        try
+        {
+            var url2 = _client.BaseAddress + "musica/buscar-autor?nomeAutor=" + textoBusca;
+            var result2 = await _client.GetFromJsonAsync<List<MusicaReq>>(url2) ?? new List<MusicaReq>();
+            finalList.AddRange(result2);
+        }
+        catch (Exception ex)
+        {
+            // Log exception or handle it as needed  
+            Console.WriteLine($"Erro ao buscar músicas por autor: {ex.Message}");
+        }
+
+        finalList = finalList
+            .GroupBy(m => m.musicaId)
+            .Select(g => g.First())
+            .ToList();
 
         finalList.ForEach(m =>
         {

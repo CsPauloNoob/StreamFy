@@ -33,6 +33,37 @@
 
 </MudContainer>
 
+
+<MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
+    <MudText Typo="Typo.h5" Class="mb-4">Favoritos</MudText>
+    <div style="display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 16px;">
+        @foreach (var item in _musicas.Where(m => m.Favorito))
+        {
+            <MudCard Style="min-width: 200px; max-width: 200px;">
+                <MudCardMedia Image="@item.ImagemUrl" Height="140" />
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.Nome</MudText>
+                </MudCardContent>
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@item.BandaNome</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudIconButton Icon="@GetFavoritoIcon(item)"
+                                   Color="Color.Error"
+                                   OnClick="@(() => Favoritar(item))" />
+                </MudCardActions>
+            </MudCard>
+        }
+        @if (!_musicas.Any(m => m.Favorito))
+        {
+            <MudText Class="ml-2" Typo="Typo.body2">Nenhuma música favorita.</MudText>
+        }
+    </div>
+</MudContainer>
+
 @code
 {
     [Inject]

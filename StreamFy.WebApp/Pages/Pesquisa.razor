@@ -27,6 +27,11 @@
 
     </div>
 
+    @if(!_musicas.Any())
+    {
+        <MudText Typo="Typo.subtitle2" Class="mt-4">Nenhuma música encontrada.</MudText>
+    }
+
 </MudContainer>
 
 
@@ -39,7 +44,7 @@
 
     private List<MusicaReq> _musicas = new List<MusicaReq>();
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnParametersSetAsync()
     {
         var result = await _musicaEndpoint.BuscarMusica(Key);
 
