@@ -1,4 +1,5 @@
-﻿using StreamFy.Core.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using StreamFy.Core.Interfaces;
 using StreamFy.Core.Modelos;
 using StreamFy.Infra.Dados;
 using System;
@@ -20,10 +21,11 @@ namespace StreamFy.Infra.Repositorios
         }
 
 
-        Task IUsuarioRepository.AdicionarAsync(Usuario usuario)
+        async Task IUsuarioRepository.AdicionarAsync(Usuario usuario)
         {
             _context.Usuarios.Add(usuario);
-            return _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+            return;
         }
 
         Task IUsuarioRepository.AtualizarAsync(Usuario usuario)
@@ -31,9 +33,19 @@ namespace StreamFy.Infra.Repositorios
             throw new NotImplementedException();
         }
 
-        Task<Usuario> IUsuarioRepository.BuscarPorEmailAsync(string email)
+        async Task<Usuario> IUsuarioRepository.BuscarPorEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            var usuario = await _context.Usuarios
+                .Where(u => u.Email == email)
+                .Include(u => u.Playlists)
+                .FirstOrDefaultAsync();
+
+            return usuario;
+        }
+
+        async Task IUsuarioRepository.Salvar()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

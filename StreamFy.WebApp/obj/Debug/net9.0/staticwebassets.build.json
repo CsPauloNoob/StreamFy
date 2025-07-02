@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "45TBxDBTVgAl3i6d7f6CsKU5rgyRfZAIfYDLTUKhqHs=",
+  "Hash": "HRp3BSZhvcUsJtSVXX4SBdst4lYSXR9pAzX8rVkL1Qw=",
   "Source": "StreamFy.WebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "f27ni8cacm",
-      "Integrity": "ecpVILTiRYuBS3N/FSVD2kgmqlCSIy/LhOp+Yyy2hjc=",
+      "Fingerprint": "rahjua94ew",
+      "Integrity": "U7RnviMGdj9QU2CeKe0R8EETX5P0E+7TwjSmsvCTdZI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -976,8 +976,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "r0hkdtp4bo",
-      "Integrity": "1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE=",
+      "Fingerprint": "dbrqu0tyqz",
+      "Integrity": "N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\StreamFy.WebApp.pdb"
@@ -997,8 +997,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "63qt78gkwo",
-      "Integrity": "rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng=",
+      "Fingerprint": "ti4qvqx28t",
+      "Integrity": "ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\webcil\\StreamFy.WebApp.wasm"
@@ -5540,12 +5540,12 @@
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Primitives.wasm"
     },
     {
-      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-63qt78gkwo.gz",
+      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-ti4qvqx28t.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=63qt78gkwo}]!.wasm.gz",
+      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=ti4qvqx28t}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5554,8 +5554,8 @@
       "RelatedAsset": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n7n00z9wds",
-      "Integrity": "fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4=",
+      "Fingerprint": "4r4xwg993r",
+      "Integrity": "UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.wasm"
@@ -6338,7 +6338,7 @@
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-f27ni8cacm.gz",
+      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-rahjua94ew.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -6352,8 +6352,8 @@
       "RelatedAsset": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jorp5uv03f",
-      "Integrity": "Y6WzFdtVsvhknqWEDhoHtI00SorLWmnINI10j+HUYkg=",
+      "Fingerprint": "itkgv0gajl",
+      "Integrity": "mjNjsjEPqxLlCAXYwrPp9/1goXb6DBC/p17s9oDQXXU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6674,12 +6674,12 @@
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.HttpListener.wasm"
     },
     {
-      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-r0hkdtp4bo.gz",
+      "Identity": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-dbrqu0tyqz.gz",
       "SourceId": "StreamFy.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=r0hkdtp4bo}]!.pdb.gz",
+      "RelativePath": "_framework/StreamFy.WebApp#[.{fingerprint=dbrqu0tyqz}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6688,8 +6688,8 @@
       "RelatedAsset": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "owgejjqer2",
-      "Integrity": "6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A=",
+      "Fingerprint": "1xswxvrg7a",
+      "Integrity": "m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.pdb"
@@ -9410,11 +9410,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ecpVILTiRYuBS3N/FSVD2kgmqlCSIy/LhOp+Yyy2hjc=\""
+          "Value": "\"U7RnviMGdj9QU2CeKe0R8EETX5P0E+7TwjSmsvCTdZI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9424,18 +9424,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ecpVILTiRYuBS3N/FSVD2kgmqlCSIy/LhOp+Yyy2hjc="
+          "Value": "sha256-U7RnviMGdj9QU2CeKe0R8EETX5P0E+7TwjSmsvCTdZI="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-f27ni8cacm.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-rahjua94ew.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079789356"
+          "Quality": "0.000079802091"
         }
       ],
       "ResponseHeaders": [
@@ -9445,15 +9445,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12532"
+          "Value": "12530"
         },
         {
           "Name": "ETag",
-          "Value": "\"Y6WzFdtVsvhknqWEDhoHtI00SorLWmnINI10j+HUYkg=\""
+          "Value": "\"mjNjsjEPqxLlCAXYwrPp9/1goXb6DBC/p17s9oDQXXU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:03:53 GMT"
+          "Value": "Wed, 02 Jul 2025 02:26:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9473,19 +9473,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ecpVILTiRYuBS3N/FSVD2kgmqlCSIy/LhOp+Yyy2hjc=\""
+          "Value": "W/\"U7RnviMGdj9QU2CeKe0R8EETX5P0E+7TwjSmsvCTdZI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ecpVILTiRYuBS3N/FSVD2kgmqlCSIy/LhOp+Yyy2hjc="
+          "Value": "sha256-U7RnviMGdj9QU2CeKe0R8EETX5P0E+7TwjSmsvCTdZI="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-f27ni8cacm.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\e6c7jp3f5v-rahjua94ew.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9494,7 +9494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12532"
+          "Value": "12530"
         },
         {
           "Name": "Content-Type",
@@ -9502,11 +9502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y6WzFdtVsvhknqWEDhoHtI00SorLWmnINI10j+HUYkg=\""
+          "Value": "\"mjNjsjEPqxLlCAXYwrPp9/1goXb6DBC/p17s9oDQXXU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:03:53 GMT"
+          "Value": "Wed, 02 Jul 2025 02:26:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9524,7 +9524,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y6WzFdtVsvhknqWEDhoHtI00SorLWmnINI10j+HUYkg="
+          "Value": "sha256-mjNjsjEPqxLlCAXYwrPp9/1goXb6DBC/p17s9oDQXXU="
         }
       ]
     },
@@ -21884,168 +21884,7 @@
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.63qt78gkwo.wasm",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "59157"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "63qt78gkwo"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.63qt78gkwo.wasm",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-63qt78gkwo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000044694735"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22373"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "63qt78gkwo"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.63qt78gkwo.wasm.gz",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-63qt78gkwo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22373"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "63qt78gkwo"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/StreamFy.WebApp.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
+      "Route": "_framework/StreamFy.WebApp.dbrqu0tyqz.pdb",
       "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22055,7 +21894,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40764"
+          "Value": "44040"
         },
         {
           "Name": "Content-Type",
@@ -22063,148 +21902,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE=\""
+          "Value": "\"N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-r0hkdtp4bo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000031965222"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31283"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.pdb.gz",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-r0hkdtp4bo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/StreamFy.WebApp.r0hkdtp4bo.pdb",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40764"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22214,7 +21916,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r0hkdtp4bo"
+          "Value": "dbrqu0tyqz"
         },
         {
           "Name": "label",
@@ -22222,18 +21924,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE="
+          "Value": "sha256-N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA="
         }
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.r0hkdtp4bo.pdb",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-r0hkdtp4bo.gz",
+      "Route": "_framework/StreamFy.WebApp.dbrqu0tyqz.pdb",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-dbrqu0tyqz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031965222"
+          "Quality": "0.000030066146"
         }
       ],
       "ResponseHeaders": [
@@ -22243,15 +21945,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31283"
+          "Value": "33259"
         },
         {
           "Name": "ETag",
-          "Value": "\"6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A=\""
+          "Value": "\"m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22271,13 +21973,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE=\""
+          "Value": "W/\"N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r0hkdtp4bo"
+          "Value": "dbrqu0tyqz"
         },
         {
           "Name": "label",
@@ -22285,13 +21987,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1RtDABO+jVvzWTxvQdDxkoIVxG7ynqF+hn7bKnX6HxE="
+          "Value": "sha256-N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA="
         }
       ]
     },
     {
-      "Route": "_framework/StreamFy.WebApp.r0hkdtp4bo.pdb.gz",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-r0hkdtp4bo.gz",
+      "Route": "_framework/StreamFy.WebApp.dbrqu0tyqz.pdb.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-dbrqu0tyqz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22300,7 +22002,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31283"
+          "Value": "33259"
         },
         {
           "Name": "Content-Type",
@@ -22308,11 +22010,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A=\""
+          "Value": "\"m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22330,7 +22032,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r0hkdtp4bo"
+          "Value": "dbrqu0tyqz"
         },
         {
           "Name": "label",
@@ -22338,7 +22040,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6HMCabGj3OvqYpEXDSLPdmB5fin29q2s7dbSHo0oK9A="
+          "Value": "sha256-m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-dbrqu0tyqz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030066146"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33259"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8VMWFOuEH/M4UI4S7mI7oVSaukNUGLOImInawuQGFA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.pdb.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\hjkh66ml20-dbrqu0tyqz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1gHmD3y8x6E+pxrG8i9b80lJiaL3CR+g1QGGLtrKgc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.ti4qvqx28t.wasm",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StreamFy.WebApp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti4qvqx28t"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.ti4qvqx28t.wasm",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-ti4qvqx28t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000039794660"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25128"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti4qvqx28t"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/StreamFy.WebApp.ti4qvqx28t.wasm.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-ti4qvqx28t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti4qvqx28t"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/StreamFy.WebApp.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow="
         }
       ]
     },
@@ -22353,7 +22353,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59157"
+          "Value": "66837"
         },
         {
           "Name": "Content-Type",
@@ -22361,11 +22361,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng=\""
+          "Value": "\"ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22375,18 +22375,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng="
+          "Value": "sha256-ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI="
         }
       ]
     },
     {
       "Route": "_framework/StreamFy.WebApp.wasm",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-63qt78gkwo.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-ti4qvqx28t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000044694735"
+          "Quality": "0.000039794660"
         }
       ],
       "ResponseHeaders": [
@@ -22396,15 +22396,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22373"
+          "Value": "25128"
         },
         {
           "Name": "ETag",
-          "Value": "\"fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4=\""
+          "Value": "\"UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22424,19 +22424,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng=\""
+          "Value": "W/\"ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rk9EwuHoq/SN9STTvCiRv9ZREtgGzQxUdEwMuzLI+Ng="
+          "Value": "sha256-ZVBbPnzPqzxafUhxbX6EgiQQYja0XulgCIP6klTeaLI="
         }
       ]
     },
     {
       "Route": "_framework/StreamFy.WebApp.wasm.gz",
-      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-63qt78gkwo.gz",
+      "AssetFile": "E:\\Projetos\\Infnet\\StreamFy\\StreamFy\\StreamFy.WebApp\\obj\\Debug\\net9.0\\compressed\\6qm3xd3ikb-ti4qvqx28t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22445,7 +22445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22373"
+          "Value": "25128"
         },
         {
           "Name": "Content-Type",
@@ -22453,11 +22453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4=\""
+          "Value": "\"UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 03:06:58 GMT"
+          "Value": "Wed, 02 Jul 2025 02:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22475,7 +22475,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fY5e/LdSkG3m73o9SaXjS6jGqI674RnrnwIvHweDAg4="
+          "Value": "sha256-UMbM1MhFynA4Yc7xaQPrZcNteNcO6Cv1r20bjf5Oaow="
         }
       ]
     },

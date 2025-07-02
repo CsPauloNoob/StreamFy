@@ -14,6 +14,14 @@ namespace StreamFy.Infra.Repositorios
             _context = context;
         }
 
+        public async Task<Musica> RecuperarMusicaPorId(int id)
+        {
+            var musica = await _context.Musicas
+                .Include(m => m.Autor)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            return musica;
+        }
+
 
         public async Task<List<Musica>> RecuperarMusicas(int limite)
         {

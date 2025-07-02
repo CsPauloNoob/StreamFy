@@ -25,5 +25,7 @@ namespace StreamFy.Core.Interfaces
         /// </summary>
         /// <param name="usuario">Usuário com as informações atualizadas.</param>
         Task AtualizarAsync(Usuario usuario);
+
+        Task Salvar();
     }
 }

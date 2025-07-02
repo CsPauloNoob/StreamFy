@@ -24,6 +24,10 @@ builder.Services.AddScoped(
     typeof(IMusicaRepository), 
     typeof(MusicaRepository));
 
+builder.Services.AddScoped(
+    typeof(IAutorRepository), 
+    typeof(AutorRepository));
+
 #if DEBUG
 builder.Services.AddDbContext<StramFyContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))

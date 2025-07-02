@@ -3,6 +3,9 @@
 @using StreamFy.WebApp.Requests
 @inject NavigationManager _navgationManager
 
+
+<MudOverlay @bind-Visible="_visible" DarkBackground AutoClose="true" />
+
 <MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
     <MudText Typo="Typo.h5" Class="mb-4">Suas Musicas</MudText>
 
@@ -52,8 +55,8 @@
                 </MudCardContent>
                 <MudCardActions>
                     <MudIconButton Icon="@GetFavoritoIcon(item)"
-                                   Color="Color.Error"
-                                   OnClick="@(() => Favoritar(item))" />
+                    Color="Color.Error"
+                    OnClick="@(() => Favoritar(item))" />
                 </MudCardActions>
             </MudCard>
         }
@@ -64,6 +67,34 @@
     </div>
 </MudContainer>
 
+
+<MudContainer Class="mt-6" MaxWidth="MaxWidth.False">
+    <MudText Typo="Typo.h5" Class="mb-4">Bandas</MudText>
+    <div style="display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 16px;">
+        @foreach (var banda in _musicas.GroupBy(m => m.BandaNome))
+        {
+            var primeiraMusica = banda.FirstOrDefault();
+            <MudCard Style="min-width: 200px; max-width: 200px;">
+                @if (primeiraMusica?.ImagemUrl is not null)
+                {
+                    <MudCardMedia Image="@primeiraMusica.ImagemUrl" Height="140" />
+                }
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle2">@banda.Key</MudText>
+                </MudCardContent>
+            </MudCard>
+        }
+        @if (!_musicas.Any())
+        {
+            <MudText Class="ml-2" Typo="Typo.body2">Nenhuma banda encontrada.</MudText>
+        }
+    </div>
+</MudContainer>
+
+
 @code
 {
     [Inject]
@@ -73,6 +104,8 @@
 
     private List<MusicaReq> _musicas = new();
 
+    private bool _visible;
+
     protected override async Task OnInitializedAsync()
     {
         if(!UsuarioLogado.Logado)
@@ -80,13 +113,25 @@
 
         else
         {
+            _visible = true;
+            StateHasChanged();
             _musicas = await _musicaEndpoint.GetMusicas();
+            _visible = false;
+            StateHasChanged(); 
         }
     }
 
-    void Favoritar(MusicaReq musica)
+    async Task Favoritar(MusicaReq musica)
     {
-        musica.Favorito = !musica.Favorito;
+        _visible = true;
+        StateHasChanged();
+        var result = await _musicaEndpoint.FavoritarMusica(musica);
+
+        if(result)
+            musica.Favorito = !musica.Favorito;
+
+        _visible = false;
+        StateHasChanged();
     }
 
     string GetFavoritoIcon(MusicaReq musica)
@@ -94,6 +139,5 @@
         return musica.Favorito ? 
             Icons.Material.Filled.Favorite : 
             Icons.Material.Filled.FavoriteBorder;
-    }
-
+    }    
 }

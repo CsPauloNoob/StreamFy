@@ -6,10 +6,14 @@ namespace StreamFy.Application;
 public class PlaylistApplication
 {
     private readonly IMusicaRepository _musicaRepo;
+    private readonly IAutorRepository _autorRepo;
+    private readonly IUsuarioRepository _usuarioRepo;
 
-    public PlaylistApplication(IMusicaRepository musicaRepository)
+    public PlaylistApplication(IMusicaRepository musicaRepository, IAutorRepository autorRepository, IUsuarioRepository usuarioRepository)
     {
         _musicaRepo = musicaRepository;
+        _autorRepo = autorRepository;
+        _usuarioRepo = usuarioRepository;
     }
 
     public Playlist AdicionarMusica(int playlistId, int musicaId)
@@ -37,4 +41,23 @@ public class PlaylistApplication
     {
         return await _musicaRepo.RecuperarMusicasPorAutor(nomeAutor);
     }
+
+
+    public async Task<List<Autor>> RecuperarAutores(int quantidade = 5)
+    {
+        return await _autorRepo.RecuperarAutores(quantidade);
+    }
+
+    public async Task<bool> FavoritarMusica(Musica musica, string idUsuario)
+    {
+        var musicaBanco = await _musicaRepo.RecuperarMusicaPorId(musica.Id);
+        var usuario = await _usuarioRepo.BuscarPorEmailAsync(idUsuario);
+
+        usuario.Playlists[0].AdicionarMusica(musicaBanco);
+
+        await _usuarioRepo.Salvar();
+
+        return true;
+    }
+
 }

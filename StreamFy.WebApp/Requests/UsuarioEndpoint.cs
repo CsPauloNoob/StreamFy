@@ -16,34 +16,77 @@ public class UsuarioEndpoint
     public async Task<UsuarioReq> RegistrarUsuario(UsuarioReq usuario)
     {
         var url = _client.BaseAddress + "auth/register";
-        var result = await _client.PostAsJsonAsync(url, usuario);
+        int maxTentativas = 2;
 
-        if (result.IsSuccessStatusCode)
+        for (int tentativa = 1; tentativa <= maxTentativas; tentativa++)
         {
-            var usuarioRegistrado = await result.Content.ReadFromJsonAsync<UsuarioReq>();
-            return usuarioRegistrado!;
+            try
+            {
+                var result = await _client.PostAsJsonAsync(url, usuario);
+
+                if (result.IsSuccessStatusCode)
+                {
+                    var usuarioRegistrado = new UsuarioReq()
+                    {
+                        Id = 0,
+                        Email = usuario.Email,
+                        Senha = usuario.Senha,
+                        Nome = usuario.Nome,
+                        Plano = Planos.Free, // Definindo plano padrão como Free
+                    };
+                    return usuarioRegistrado!;
+                }
+                else
+                {
+                    throw new Exception("Erro ao registrar usuário: " + result.ReasonPhrase);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (tentativa == maxTentativas)
+                    throw new Exception($"Erro ao registrar usuário: {ex.Message}");
+                await Task.Delay(2000);
+            }
         }
-        else
-        {
-            // Trate o erro conforme necessário, por exemplo, lançando uma exceção ou retornando null
-            throw new Exception("Erro ao registrar usuário: " + result.ReasonPhrase);
-        }
+        throw new Exception("Erro desconhecido ao registrar usuário.");
     }
 
     public async Task<UsuarioReq> Login(UsuarioReq usuario)
     {
         var url = _client.BaseAddress + "auth/login";
-        var result = await _client.PostAsJsonAsync(url, usuario);
+        int maxTentativas = 2;
 
-        if (result.IsSuccessStatusCode)
+        for (int tentativa = 1; tentativa <= maxTentativas; tentativa++)
         {
-            var usuarioLogado = await result.Content.ReadFromJsonAsync<UsuarioReq>();
-            return usuarioLogado!;
+            try
+            {
+                var result = await _client.PostAsJsonAsync(url, usuario);
+
+                if (result.IsSuccessStatusCode)
+                {
+                    var usuarioRegistrado = new UsuarioReq()
+                    {
+                        Id = 0,
+                        Email = usuario.Email,
+                        Senha = usuario.Senha,
+                        Nome = usuario.Nome,
+                        Plano = Planos.Free, // Definindo plano padrão como Free
+                    };
+                    return usuarioRegistrado!;
+                }
+                else
+                {
+                    throw new Exception("Erro ao fazer login: " + result.ReasonPhrase);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (tentativa == maxTentativas)
+                    throw new Exception($"Erro ao fazer login: {ex.Message}");
+                await Task.Delay(2000);
+            }
         }
-        else
-        {
-            throw new Exception("Erro ao fazer login: " + result.ReasonPhrase);
-        }
+        throw new Exception("Erro desconhecido ao fazer login.");
     }
 
     public async Task<UsuarioReq> AlterarPlano(UsuarioReq usuario, Planos novoPlano)

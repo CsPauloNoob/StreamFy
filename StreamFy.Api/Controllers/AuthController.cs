@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
     
     
     [HttpPost("login")]
-    public ActionResult<Usuario> Login(UsuarioReq usuarioReq)
+    public ActionResult<UsuarioReq> Login([FromBody]UsuarioReq usuarioReq)
     {
         try
         {
@@ -34,7 +34,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("register")]
-    public ActionResult<Usuario> RegistrarUsuario(UsuarioReq usuarioReq)
+    public ActionResult<UsuarioReq> RegistrarUsuario([FromBody]UsuarioReq usuarioReq)
     {
         try
         {

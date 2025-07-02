@@ -7,29 +7,31 @@
 
 <h3>Login</h3>
 
+<MudOverlay @bind-Visible="_visible" DarkBackground AutoClose="true" />
+
 <MudPaper Class="d-flex flex-column align-center justify-center" Style="height: 100vh">
     <MudCard Style="width: 100%; max-width: 400px;">
-        
+
         <MudCardContent>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
 
             <MudTextField @bind-Value="_nome" InputType="InputType.Text" Label="Nome" FullWidth="true" Disabled="_reg"/>
             <MudTextField @bind-Value="_email" InputType="InputType.Email" Label="Email" FullWidth="true"/>
             <MudTextField @bind-Value="_password" Label="Senha" InputType="InputType.Password" FullWidth="true"/>
-            
+
             <MudPaper Class="d-flex">
                 <MudButton Color="Color.Primary" FullWidth="true" Class="mt-8 mr-2" OnClick="TentativaLogin">
                     Entrar
                 </MudButton>
-                
+
                 <MudButton Color="Color.Dark" FullWidth="true" Class="mt-8 ml-2" OnClick="TentativaRegistrar">
                     Registrar
                 </MudButton>
             </MudPaper>
-            
+
 
         </MudCardContent>
-        
+
     </MudCard>
 </MudPaper>
 
@@ -39,6 +41,7 @@
     private string _nome;
     private string _password;
     private bool _reg = true;
+    private bool _visible;
 
     [Inject] 
     public UsuarioEndpoint _usuarioEndpoint { get; set; }
@@ -51,7 +54,10 @@
             _snackbar.Add("Você precisa preencher todos os campos", Severity.Error);
             return;
         }
-        
+
+        _visible = true;
+        StateHasChanged();
+
         var usuario = await _usuarioEndpoint
             .Login(new UsuarioReq()
             {
@@ -59,10 +65,13 @@
                 Senha = _password,
                 Nome = _nome is null ? "Usuário" : _nome
             });
-        
+
+        _visible = false;
+        StateHasChanged();
+
         UsuarioLogado.usuarioLogadoInfo = usuario;
         UsuarioLogado.Logado = true;
-        
+
         _navManager.NavigateTo("/");
     }
 
@@ -76,6 +85,9 @@
             return;
         }
 
+        _visible = true;
+        StateHasChanged();
+
         var usuario = await _usuarioEndpoint
             .RegistrarUsuario(new UsuarioReq()
         {
@@ -83,6 +95,9 @@
             Senha = _password,
             Nome = _nome is null ? "Usuário" : _nome
         });
+
+        _visible = false;
+        StateHasChanged();
 
         UsuarioLogado.usuarioLogadoInfo = usuario;
         UsuarioLogado.Logado = true;

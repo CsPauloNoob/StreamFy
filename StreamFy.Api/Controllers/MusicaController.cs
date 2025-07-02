@@ -16,21 +16,22 @@ public class MusicaController : ControllerBase
         _playlistApp = playlistApp;
     }
 
-    [HttpPost("playlist")]
-    public ActionResult<Playlist> AdicionarMusicaPlaylist(MusicaActionReq actionReq)
+    [HttpPost("favoritar")]
+    public async Task<ActionResult> AdicionarMusicaPlaylist([FromBody]MusicaActionReq actionReq, [FromQuery] string email)
     {
         try
         {
-            var playlistUpdate =
-                _playlistApp.AdicionarMusica(
-                    actionReq.PlaylistId,
-                    actionReq.musicaId);
+            await _playlistApp.FavoritarMusica(new Musica
+            {
+                Id = actionReq.musicaId,
+                Nome = actionReq.Nome,
+            }, email);
 
-            return playlistUpdate;
+            return Ok();
         }
         catch (Exception ex)
         {
-            return BadRequest($"Erro ao adicionar música à playlist: {ex.Message}");
+            return BadRequest($"Erro ao favoritar musica {ex.Message}");
         }
     }
 
